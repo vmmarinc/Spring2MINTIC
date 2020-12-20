@@ -11,12 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.encoders import jsonable_encoder
 
 origins = [
-    "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-<<<<<<< HEAD
-    "http://localhost", "http://localhost:8080", "https://spring3-g2m3-6-app.herokuapp.com/", 
-=======
-    "http://localhost", "http://localhost:8080","https://spring3-g2m3-6-app.herokuapp.com", 
->>>>>>> 0c9af84e663558a7606d4155c5724c7dca599992
+    "http://localhost.tiangolo.com", "https://localhost.tiangolo.com", "http://localhost", "http://localhost:8080", "https://spring3-g2m3-6-app.herokuapp.com",
 ]
 
 api.add_middleware(
